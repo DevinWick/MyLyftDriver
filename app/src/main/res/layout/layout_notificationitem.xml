@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notification_background"
+    android:minHeight="100dp"
+    android:maxHeight="100dp"
+    android:id="@+id/parentlayout_notification">
+
+
+    <TextView
+        android:id="@+id/tvsender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="17dp"
+        android:text="System"
+        android:textSize="14dp"
+        android:textColor="#007BC3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="08.09.2019:1030PM"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvsender"
+        app:layout_constraintStart_toEndOf="@+id/tvsender"
+        app:layout_constraintTop_toTopOf="@+id/tvsender" />
+
+    <TextView
+        android:id="@+id/tvnotificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@+id/tvsender"
+        app:layout_constraintTop_toBottomOf="@+id/tvsender" />
+
+    <TextView
+        android:id="@+id/tvnotificationmsg"
+        android:layout_width="266dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="2dp"
+        android:gravity="left"
+        android:textSize="12dp"
+        android:maxWidth="300dp"
+        android:maxLines="1"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        app:layout_constraintStart_toStartOf="@+id/tvnotificationTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvnotificationTitle" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/notificationIcon"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="20dp"
+        android:background="@mipmap/app_launcher_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvnotificationmsg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

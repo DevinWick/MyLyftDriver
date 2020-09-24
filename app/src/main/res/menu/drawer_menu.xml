@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/drawermenu_home" />
+        <item
+            android:id="@+id/nav_booklater"
+            android:icon="@drawable/ic_menu_booking"
+            android:title="@string/drawermenu_booklater" />
+        <item
+            android:id="@+id/nav_rides"
+            android:icon="@drawable/ic_menu_trips"
+            android:title="My Rides" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_menu_payments"
+            android:title="@string/drawermenu_payments" />
+        <item
+            android:id="@+id/nav_Notifications"
+            android:icon="@drawable/ic_menu_notifications"
+            android:title="@string/drawermenu_notifications" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/drawermenu_settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/drawermenu_share" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/drawermenu_send" />
+        </menu>
+    </item>
+
+</menu>

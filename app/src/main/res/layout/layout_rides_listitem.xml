@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ridelist_parentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="190dp"
+    android:maxHeight="190dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/ridelistitem_background">
+
+    <TextView
+        android:id="@+id/rideDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="29 Aug 2019"
+        android:textStyle="bold"
+        android:textColor="@color/mainTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvpickuplocation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvpickuplocation"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_pickup_pin" />
+
+    <TextView
+        android:id="@+id/tvpickuplocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Kaduwela Rd,Malabe"
+        android:textColor="@color/mainTextColor"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/rideDate" />
+
+    <TextView
+        android:id="@+id/tvpickuptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="10:30PM"
+        android:textSize="12dp"
+        android:textColor="#858181"
+        app:layout_constraintStart_toStartOf="@+id/tvpickuplocation"
+        app:layout_constraintTop_toBottomOf="@+id/tvpickuplocation" />
+
+    <ImageView
+        android:id="@+id/ivdropoffpin"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvdropofflocation"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/tvdropofflocation"
+        app:srcCompat="@drawable/ic_dropoff_pin" />
+
+    <TextView
+        android:id="@+id/tvdropofflocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:text="Kaduwela Rd,Malabe"
+        android:textColor="@color/mainTextColor"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@+id/ivdropoffpin"
+        app:layout_constraintTop_toBottomOf="@+id/tvpickuptime" />
+
+    <TextView
+        android:id="@+id/tvdropofftime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="10:30PM"
+        android:textSize="12dp"
+        android:textColor="#858181"
+        app:layout_constraintStart_toStartOf="@+id/tvdropofflocation"
+        app:layout_constraintTop_toBottomOf="@+id/tvdropofflocation" />
+
+    <TextView
+        android:id="@+id/tvridefare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="LKR 44.12"
+        android:textColor="#262323"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

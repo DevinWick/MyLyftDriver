@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "938815228863",
+    "firebase_url": "https://lyftme-c641d.firebaseio.com",
+    "project_id": "lyftme-c641d",
+    "storage_bucket": "lyftme-c641d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938815228863:android:01b7f2a0b2179aeb",
+        "android_client_info": {
+          "package_name": "com.phantomarts.mylyftdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938815228863-knuelhvabdhvmrbc3ihv5acp28h0rqnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phantomarts.mylyftdriver",
+            "certificate_hash": "99209332a92b6b8446d3d86a6ad535f3e7565424"
+          }
+        },
+        {
+          "client_id": "938815228863-6g6cgjbu7sprc0lfp7hk1q9ln61kn0h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5yKXocelTvMt288aJjticiEwGuhNPjeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938815228863-6g6cgjbu7sprc0lfp7hk1q9ln61kn0h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

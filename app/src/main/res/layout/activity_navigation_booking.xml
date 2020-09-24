@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationBookingActivity">
+
+    <TextView
+        android:id="@+id/bookingtitledate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Date"
+        android:textSize="14dp"
+        android:layout_margin="10dp"
+        android:layout_alignLeft="@+id/datePicker1"
+        android:layout_alignStart="@+id/datePicker1"
+        />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/bookingtitledate"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/bookingtitletime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Time"
+        android:textSize="14dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/datePicker1"
+        android:layout_alignLeft="@+id/timePicker"
+        android:layout_alignStart="@+id/timePicker"
+        />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:timePickerMode="spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bookingtitletime"/>
+    <Button
+        android:id="@+id/btnPlaceBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_book_ride"
+        android:layout_below="@id/timePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

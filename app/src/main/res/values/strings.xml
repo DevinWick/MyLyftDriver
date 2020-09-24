@@ -1,0 +1,91 @@
+<resources>
+    <string name="googlemaps_api_key">AIzaSyDxytfaIIbsMgGmhYTlOa69jrZPP8evb8I</string>
+    <string name="google_directions_api_key">AIzaSyDxytfaIIbsMgGmhYTlOa69jrZPP8evb8I</string>
+
+    <string name="app_name">MyLyftDriver</string>
+    <string name="loading">Loading Information ...</string>
+    <string name="no_acc_msg">Don\'t you have a account?</string>
+    <string name="have_acc_msg">Already Have a account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reg_title">Register</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="enter_phone_no">Enter Your Phone No</string>
+    <string name="hint_enter_no">Enter your no</string>
+    <string name="title_enter_code">Enter 4 Digit Code</string>
+    <string name="msg_enter_code">We have send a code to your phone no</string>
+    <string name="btn_send_again">Send Again</string>
+    <string name="btn_done">Send Again</string>
+    <string name="title_nic_upload">Upload Clear Image of NIC</string>
+    <string name="nic_front">Front Side</string>
+    <string name="nic_back">Back Side</string>
+    <string name="enter_vehicle_details">Enter Vehicle Details</string>
+    <string name="owner">Owner</string>
+    <string name="registration_no">Registration No</string>
+    <string name="brand">Brand</string>
+    <string name="modelStr">Model</string>
+    <string name="vechicle_color">Vehicle Color</string>
+    <string name="owner_of_vehicle">I\'m the owner of this vehicle</string>
+    <string name="ridescansee_profpic">Your Rides Can See Your Profile Picture</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="complete_profile">Complete Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+
+    <string-array name="vehicle_types">
+        <item>Car</item>
+        <item>Three-Wheel</item>
+        <item>Bike</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="drawermenu_home">Home</string>
+    <string name="drawermenu_booklater">Book Later</string>
+    <string name="drawermenu_payments">Payments</string>
+    <string name="drawermenu_notifications">Notifications</string>
+    <string name="drawermenu_settings">Settings</string>
+    <string name="drawermenu_share">Share</string>
+    <string name="drawermenu_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MyLyft</string>
+    <string name="nav_header_subtitle">user@mylyft.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menusignout">signout</string>
+    <string name="notification">Notifications</string>
+    <string name="title_activity_navigation_rides">NavigationRidesActivity</string>
+    <string name="tab_text_1">Charts</string>
+    <string name="tab_text_2">Rides</string>
+    <string name="rides">My Rides</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="riderReadyMsg">You will get ride requests</string>
+    <string name="title_acceloremeter">Acceloremeter Data</string>
+
+
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Description</string>
+    <string name="customer_support_contact">1331</string>
+</resources>

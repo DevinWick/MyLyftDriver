@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="splashBackground">#1D1D1D</color>
+    <color name="fontBaseColor">#CDCDCB</color>
+    <color name="errorMsgColor">#F44336</color>
+    <color name="mainTextColor">#575757</color>
+
+    <!-- material colors -->
+    <color name="my_app_primary_color">#E8AA09</color>
+    <color name="my_app_background_color">#EEEEEE</color>
+    <color name="my_app_color_on_background">#000000</color>
+    <color name="my_app_secondary_color">#03DAC6</color>
+    <color name="my_app_primary_variant_color">#3700B3</color>
+    <color name="my_app_secondary_variant_color">#018786</color>
+    <color name="my_app_color_on_primary">#FFFFFF</color>
+    <color name="my_app_color_on_secondary">#000000</color>
+    <color name="my_app_error_color">#C51162</color>
+    <color name="my_app_surface_color">#FFFFFF</color>
+    <color name="my_app_color_on_error">#FFFFFF</color>
+    <color name="my_app_color_on_surface">#000000</color>
+</resources>
